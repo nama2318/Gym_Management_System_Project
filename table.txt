@@ -1,0 +1,19 @@
+
+
+customer reg:
+create table cdd(Id INTEGER PRIMARY KEY AUTO_INCREMENT,Fn VARCHAR(20),Ln VARCHAR(20),Mn VARCHAR(20),ad VARCHAR(20),dob VARCHAR(20),age VARCHAR(20),bg VARCHAR(20),ht VARCHAR(20),wt VARCHAR(20),bt VARCHAR(20),pk VARCHAR(20),pr VARCHAR(20));
+
+trainer reg:
+create table tdd(Id INTEGER PRIMARY KEY AUTO_INCREMENT,Fn VARCHAR(20),Ln VARCHAR(20),Mn VARCHAR(20),ad VARCHAR(20),dob VARCHAR(20),age VARCHAR(20),bg VARCHAR(20),pr VARCHAR(20));
+
+eqipment reg:
+create table ei(Id INTEGER PRIMARY KEY AUTO_INCREMENT,En VARCHAR(20),qn VARCHAR(20),Se VARCHAR(20),dt VARCHAR(50),pr VARCHAR(20) )
+
+customer total:
+create table total(tot INTEGER);
+
+trainer total:
+create table tratotal(tot INTEGER);
+
+equipment total:
+create table euitotal(tot INTEGER);
